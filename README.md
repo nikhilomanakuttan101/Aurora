@@ -7,17 +7,17 @@
 Modular Telegram bot for managing your groups with a extras features.
 
 <p align="center">
-  <a href="https://github.com/CoNqUeRoRmEsKeTtEr/CinderellaProBot/fork">
-    <img src="https://img.shields.io/github/forks/CoNqUeRoRmEsKeTtEr/CinderellaProBot?label=Fork&style=social">
+  <a href="https://github.com/CoNqUeRoRmEsKeTtEr/Aurora/fork">
+    <img src="https://img.shields.io/github/forks/CoNqUeRoRmEsKeTtEr/Aurora?label=Fork&style=social">
     
   </a>
   <a href="https://github.com/CoNqUeRoRmEsKeTtEr/CinderellaProBot">
-    <img src="https://img.shields.io/github/stars/CoNqUeRoRmEsKeTtEr/CinderellaProBot?style=social">
+    <img src="https://img.shields.io/github/stars/CoNqUeRoRmEsKeTtEr/Aurora?style=social">
   </a>
 </p>
 
 ### Click Below Image to Deploy
-[![Deploy](https://telegra.ph/file/75130e48d3b2726c4f477.jpg)](https://heroku.com/deploy?template=https://github.com/Sur-vivor/CinderellaProBot.git)
+[![Deploy](https://telegra.ph/file/75130e48d3b2726c4f477.jpg)](https://heroku.com/deploy?template=https://github.com/CoNqUeRoRmEsKeTtEr/Aurora.git)
 
 ### Configuration
 
@@ -127,4 +127,3 @@ You should now be able to build your database URI. This will be:
 
 Replace sqldbtype with whichever db youre using (eg postgres, mysql, sqllite, etc)
 repeat for your username, password, hostname (localhost?), port (5432?), and db name.
-
