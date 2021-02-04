@@ -1,23 +1,23 @@
-### @CinderellaProBot // http://www.telegram.dog/CinderellaProBot
-> with HunterxHunter theme.
+### @MissAurora_Bot // http://www.telegram.dog/MissAurora_Bot
+> Tσυƈԋ ƚԋҽ ԃҽρƚԋʂ σϝƚɾυƚԋ Fҽҽʅ ƚԋҽ ԋҽɱ σϝԋҽαʋҽN.
 
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/)  
 [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
 
-Modular Telegram bot for managing your groups with a extras features with HunterxHunter theme.
+Modular Telegram bot for managing your groups with a extras features.
 
 <p align="center">
-  <a href="https://github.com/Sur-vivor/CinderellaProBot/fork">
-    <img src="https://img.shields.io/github/forks/Sur-vivor/CinderellaProBot?label=Fork&style=social">
+  <a href="https://github.com/CoNqUeRoRmEsKeTtEr/CinderellaProBot/fork">
+    <img src="https://img.shields.io/github/forks/CoNqUeRoRmEsKeTtEr/CinderellaProBot?label=Fork&style=social">
     
   </a>
-  <a href="https://github.com/Sur-vivor/CinderellaProBot">
-    <img src="https://img.shields.io/github/stars/Sur-vivor/CinderellaProBot?style=social">
+  <a href="https://github.com/CoNqUeRoRmEsKeTtEr/CinderellaProBot">
+    <img src="https://img.shields.io/github/stars/CoNqUeRoRmEsKeTtEr/CinderellaProBot?style=social">
   </a>
 </p>
 
 ### Click Below Image to Deploy
-[![Deploy](https://telegra.ph/file/511ad504656e712b88235.jpg)](https://heroku.com/deploy?template=https://github.com/Sur-vivor/CinderellaProBot.git)
+[![Deploy](https://telegra.ph/file/75130e48d3b2726c4f477.jpg)](https://heroku.com/deploy?template=https://github.com/Sur-vivor/CinderellaProBot.git)
 
 ### Configuration
 
@@ -37,8 +37,8 @@ from cinderella.sample_config import Config
 
 
 class Development(Config):
-    OWNER_ID = 1118936839  # my telegram ID
-    OWNER_USERNAME = "Sur_vivor"  # my telegram username
+    OWNER_ID =  1448183607 # my telegram ID
+    OWNER_USERNAME = "CONQUEROR_OF_TELEGRAM"  # my telegram username
     API_KEY = "your bot api key"  # my api key, as provided by the botfather
     SQLALCHEMY_DATABASE_URI = 'postgresql://username:password@localhost:5432/database'  # sample db credentials
     MESSAGE_DUMP = '-1234567890' # some group chat that your bot is a member of
@@ -127,5 +127,4 @@ You should now be able to build your database URI. This will be:
 
 Replace sqldbtype with whichever db youre using (eg postgres, mysql, sqllite, etc)
 repeat for your username, password, hostname (localhost?), port (5432?), and db name.
-
 
