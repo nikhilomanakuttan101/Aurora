@@ -60,7 +60,7 @@ def vercheck() -> str:
 
 SOURCE_STRING = """
 ⚡I'm built in python3, using the python-telegram-bot library, and am fully opensource - you can find what makes me tick [here) (https://t.me/Noob)
-⚡You Can Clone Me [Here](https://t.me/joinchat/WCAe3d8Ou71LTErh)
+⚡You Can Clone Me [Here](https://t.me/ PrimeFlixDB)
 """
 
 
@@ -79,7 +79,7 @@ GDPR = []
 
 START_IMG = os.environ.get('START_IMG', None)
 if START_IMG is None:
-    img = "https://telegra.ph/file/24dd3709623cd3e4c9d69.jpg"
+    img = "https://telegra.ph/file/587afa677bf62e29088a4.jpg"
 else:
   img = START_IMG    
     
@@ -180,7 +180,7 @@ def send_start(bot, update):
     first_name = update.effective_user.first_name 
     text = PM_START_TEXT
 
-    keyboard = [[InlineKeyboardButton(text="Help",callback_data="help_back"),InlineKeyboardButton(text="🤴Creator",url="https://t.me/CoNqUeRoR_mEsKeTteR")]]
+    keyboard = [[InlineKeyboardButton(text="Help",callback_data="help_back"),InlineKeyboardButton(text="🤴Creator",url="https://t.me/ Elleven_tg")]]
     keyboard += [[InlineKeyboardButton(text="Connect Group", callback_data="main_connect"),InlineKeyboardButton(text="Add Me",url="t.me/{}?startgroup=true".format(bot.username))]]
 
     update.effective_message.reply_photo(img, PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_NAME, OWNER_ID), 
@@ -282,7 +282,7 @@ def get_help(bot: Bot, update: Update):
         update.effective_message.reply_text("Contact me in PM to get the list of possible commands.",
                                             reply_markup=InlineKeyboardMarkup(
                                                 [[InlineKeyboardButton(text="⚜️Help",url="t.me/{}?start=help".format(bot.username))],  
-                                                [InlineKeyboardButton(text="🛡Contact Creator",url="https://t.me/♗CσNϙUҽRσR_MҽSƙEƚҽҽR")]]))
+                                                [InlineKeyboardButton(text="🛡Contact Creator",url="https://t.me/Elleven_tg)
         return
 
     elif len(args) >= 2 and any(args[1].lower() == x for x in HELPABLE):
